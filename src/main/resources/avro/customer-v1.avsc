@@ -1,0 +1,28 @@
+{
+    "type": "record",
+    "name": "Customer",
+    "namespace": "com.productorAvro.ProductorAvro",
+    "fields": [
+        {
+            "name": "id",
+            "type": "float",
+            "doc": "First id"
+        },
+        {
+            "name": "nombre",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "First name"
+        },
+        {
+            "name": "fecha",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "First date"
+        }
+    ]
+}
